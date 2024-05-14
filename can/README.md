@@ -6,7 +6,15 @@ To enable SocketCAN support for the MCP2515 CAN controller, you need to enable a
 
 If more than 2 CAN expansion boards are installed, read this paragraph, skip it otherwise.
 
-Download the `.dts` files in this directory and compile them:
+Download the `.dts` files in this directory:
+
+```
+wget https://raw.githubusercontent.com/sfera-labs/strato-pi-max/master/can/spi0-4cs-overlay.dts
+wget https://raw.githubusercontent.com/sfera-labs/strato-pi-max/master/can/spi0-3cs-overlay.dts
+wget https://raw.githubusercontent.com/sfera-labs/strato-pi-max/master/can/mcp2515-spi0up4-overlay.dts
+```
+
+Compile them:
 
 ```
 dtc -@ -I dts -O dtb -o spi0-4cs.dtbo spi0-4cs-overlay.dts
