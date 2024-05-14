@@ -15,3 +15,9 @@ Raspberry Pi OS (Debian) driver for the NXP PCF2131 Real Time Clock (RTC).
 Go to: https://github.com/sfera-labs/rtc-pcf2131
 
 ## Expansion boards
+
+### CAN
+
+CAN controller configuration
+
+Go to: [can](./can)
