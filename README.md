@@ -31,9 +31,9 @@ Run it for usage instructions:
 ./rpctrl.sh
 ```
 
-## Additional resources for expansion boards
+## Expansion Boards
 
-Refer to the user guide of your expansion board for details on when and how to use the these resources.
+Refer to the user guide of your expansion board for details on how and when to use the these additional resources.
 
 ### CAN
 
