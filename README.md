@@ -14,10 +14,27 @@ Raspberry Pi OS (Debian) driver for the NXP PCF2131 Real Time Clock (RTC).
 
 Go to: https://github.com/sfera-labs/rtc-pcf2131
 
+## RP2040
+
+The [`rpctrl.sh`](./rpctrl.sh) script can be used to control and update the firmware of the RP2040.
+
+Download it and make it executable:
+
+```
+wget https://raw.githubusercontent.com/sfera-labs/strato-pi-max/master/rpctrl.sh
+chmod +x rpctrl.sh
+```
+
+Run it for usage instructions:
+
+```
+./rpctrl.sh
+```
+
 ## Additional resources for expansion boards
+
+Refer to the user guide of your expansion board for details on when and how to use the these resources.
 
 ### CAN
 
-CAN controller configuration
-
-Go to: [can](./can)
+See [CAN controller configuration](./can)
