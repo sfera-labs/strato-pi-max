@@ -16,9 +16,13 @@ Go to: https://github.com/sfera-labs/rtc-pcf2131
 
 ## RP2040
 
-The [`rpctrl.sh`](./rpctrl.sh) script can be used to control and update the firmware of the RP2040.
+The latest verison of the Strato Pi Max firmware running on the RP2040 can be downloaded here:
 
-Download it and make it executable:
+https://www.sferalabs.cc/files/stratopimax/fw/latest/strato_pi_max.uf2
+
+Use the [`rpctrl.sh`](./rpctrl.sh) script to update your unit. 
+
+Download the script and make it executable:
 
 ```
 wget https://raw.githubusercontent.com/sfera-labs/strato-pi-max/master/rpctrl.sh
@@ -31,9 +35,11 @@ Run it for usage instructions:
 ./rpctrl.sh
 ```
 
+The script provides additional functionalities for firmware development and testing.
+
 ## Expansion Boards
 
-Refer to the user guide of your expansion board for details on how and when to use the these additional resources.
+Refer to the user guide of your expansion board for details on how and when to use these additional resources.
 
 ### CAN
 
