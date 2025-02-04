@@ -37,6 +37,12 @@ Run it for usage instructions:
 
 The script provides additional functionalities for firmware development and testing.
 
+## NVMe SSD Compatibility
+
+List of NVMe SSD devices tested for compatibility.
+
+See [NVMe SSD Compatibility](./nvme-ssd-compatibility.md)
+
 ## Expansion Boards
 
 Refer to the user guide of your expansion board for details on how and when to use these additional resources.
