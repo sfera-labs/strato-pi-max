@@ -16,6 +16,8 @@ For more details refero to: [Raspberry Pi bootloader configuration](https://www.
 
 ## Device Tree
 
+Below is the procedure for modifying the Device Tree on Raspberry Pi OS.
+
 Check the currently used Device Tree file:
 
 ```
