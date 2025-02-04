@@ -37,7 +37,7 @@ Run it for usage instructions:
 
 The script provides additional functionalities for firmware development and testing.
 
-## NVMe SSD Compatibility
+## NVMe SSD
 
 List of NVMe SSD devices tested for compatibility.
 
