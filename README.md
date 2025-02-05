@@ -2,15 +2,21 @@
  
 [Strato Pi Max](https://www.sferalabs.cc/strato-pi-max/): the industrial, modular controller powered by the Raspberry Pi Compute Module and the RP2040 microcontroller.
 
-## Strato Pi Max kernel module
+## Setup Guide
 
-Raspberry Pi OS (Debian) driver for Strato Pi Max and its expansion boards.
+Setup guide with step-by-step instructions for setting up and configuring Strato Pi Max, including OS installation, boot options, troubleshooting, and preparing the device for production.
+
+See [Strato Pi Max Setup Guide](./setup-guide.md)
+
+## Strato Pi Max main driver
+
+Raspberry Pi OS (Debian) driver kernel module for Strato Pi Max and its expansion boards.
 
 Go to: https://github.com/sfera-labs/strato-pi-max-kernel-module
 
 ## RTC driver
 
-Raspberry Pi OS (Debian) driver for the NXP PCF2131 Real Time Clock (RTC).
+Raspberry Pi OS (Debian) driver for Strato Pi Max's NXP PCF2131 Real Time Clock (RTC).
 
 Go to: https://github.com/sfera-labs/rtc-pcf2131
 
