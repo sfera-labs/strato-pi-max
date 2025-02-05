@@ -88,7 +88,7 @@ Go to the node found above (Use search: <kbd>^</kbd><kbd>W</kbd> `mmc@fff000`):
                 };
 ```
 
-Remove the `sd-uhs-*` nodes:
+Remove the `sd-uhs-*` properties:
 
 ```
                 mmc@fff000 {
