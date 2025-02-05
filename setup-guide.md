@@ -1,4 +1,4 @@
-# Strato Pi Max Setup
+# Strato Pi Max Setup Guide
 
 This document guides you through the first-time setup of Strato Pi Max. It covers the essential steps to get your device up and running, including selecting a boot device, installing an operating system (OS), and accessing the system via the network. Additionally, it offers guidance on avoiding common misconfigurations, troubleshooting issues, and preparing your Strato Pi Max for production deployment.
 
