@@ -43,6 +43,12 @@ List of NVMe SSD devices tested for compatibility.
 
 See [NVMe SSD Compatibility](./nvme-ssd-compatibility.md)
 
+## Compute Module 5 SD Card
+
+Guide for fixing SD card compatibility issues with Compute Module 5.
+
+See [Compute Module 5 SD Card Compatibility](./cm5-sd-config.md)
+
 ## Expansion Boards
 
 Refer to the user guide of your expansion board for details on how and when to use these additional resources.
