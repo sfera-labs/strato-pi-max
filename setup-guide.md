@@ -179,7 +179,7 @@ The system will then attempt to boot from other configured modes. Once it succes
 
 ## Next Steps
 
-Once your Strato Pi Max is accessible and configured as described here, you are ready to install [its drivers](./) and develop your application.
+Once your Strato Pi Max is accessible and configured as described here, you are ready to install [its drivers](./README.md) and develop your application.
 
 Refer to the user guide for details on each of its features.
 
