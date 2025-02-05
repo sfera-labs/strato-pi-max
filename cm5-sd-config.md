@@ -1,4 +1,4 @@
-# Compute Module 5 SD card compatibility
+# Compute Module 5 SD Card Compatibility
 
 The Compute Module 5 features a high-speed SD interface, which may cause compatibility issues with SD cards that support these speeds when connected through Srato Pi Max XL's SD matrix.
 
