@@ -175,6 +175,8 @@ sudo mv /boot/firmware/* /boot/firmware/bkup
 sudo reboot
 ```
 
+To simplify this process and avoid acting completely "blindly", you can use another Raspberry Pi with the same image installed, connect it to a monitor, and observe the console output during boot. This allows you to understand the expected steps, including the login process and command execution, which you can then replicate on the Strato Pi Max with better confidence.
+
 The system will then attempt to boot from other configured modes. Once it successfully boots from an alternative mode, you can access the system and recover the eMMC image.
 
 ## Next Steps
