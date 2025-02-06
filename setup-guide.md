@@ -108,7 +108,7 @@ The recommended procedure for imaging the eMMC Flash memory is as follows:
 1. Boot the unit using an alternative boot option (e.g., NVMe SSD or USB).
 2. Access the system via the network.
 3. Use the eMMC as a local mass storage device (e.g., `/dev/mmcblk0` on Raspberry Pi OS).
-4. Write a preconfigured OS image to the eMMC using tools like `dd`, Raspberry Pi Imager CLI (`rpi-imager --cli`), or Raspberry Pi Imager in a desktop environment.
+4. Write a preconfigured OS image to the eMMC using tools like `dd`, Raspberry Pi Imager CLI (`rpi-imager --cli`), or Raspberry Pi Imager in a desktop environment. Make sure network access is enabled on the image.
 
 > [!TIP]
 > Before imaging the eMMC, consider modifying the bootloader configuration (see below) to ensure recoverability in case of misconfiguration or data corruption.
