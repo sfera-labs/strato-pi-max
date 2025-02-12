@@ -1,4 +1,4 @@
-# Strato Pi Max resources
+# Strato Pi Max Resources
  
 [Strato Pi Max](https://www.sferalabs.cc/strato-pi-max/): the industrial, modular controller powered by the Raspberry Pi Compute Module and the RP2040 microcontroller.
 
@@ -8,13 +8,13 @@ Setup guide with step-by-step instructions for setting up and configuring Strato
 
 See [Strato Pi Max Setup Guide](./setup-guide.md)
 
-## Strato Pi Max main driver
+## Strato Pi Max Main Driver
 
 Raspberry Pi OS (Debian) driver kernel module for Strato Pi Max and its expansion boards.
 
 Go to: https://github.com/sfera-labs/strato-pi-max-kernel-module
 
-## RTC driver
+## RTC Driver
 
 Raspberry Pi OS (Debian) driver for Strato Pi Max's NXP PCF2131 Real Time Clock (RTC).
 
@@ -62,3 +62,9 @@ Refer to the user guide of your expansion board for details on how and when to u
 ### CAN
 
 See [CAN controller configuration](./can)
+
+## X2-Series Expansion Boards Standard Specifications
+
+X2 is an electrical and mechanical standard developed by Sfera Labs for the design of expansion boards for the Strato Pi Max family of edge servers, as well as for future products.
+
+See [X2-Series Standard Electrical and Mechanical Specications](https://sferalabs.cc/wp-admin/admin-ajax.php?action=download_documentation&attachment_id=1012291&filename=X2-Series-specifications.pdf&display_name=X2-Series+Standard+Electrical+and+Mechanical+Specifications)
