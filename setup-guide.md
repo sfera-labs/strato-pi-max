@@ -117,14 +117,11 @@ The recommended procedure for imaging the eMMC Flash memory is as follows:
 
 Many OS images for the Raspberry Pi, including Raspberry Pi OS, are configured to automatically expand their filesystem to fill the entire storage device during the first boot. While this is often desirable, you may want to disable this feature if you are preparing an image for later use on multiple devices, so as to keep it small and reduce imaging time.
 
-To disable the automatic filesystem expansion, you can modify specific files after imaging the storage device but before using it to boot the system. The method varies depending on the OS and its version. Below are the options for Raspberry Pi OS Bookworm:
+To disable the automatic filesystem expansion, you can modify specific files after imaging the storage device, but before using it to boot the system. The method varies depending on the OS and its version. 
 
-- Modify the `cmdline.txt` file in the FAT32 boot partition by removing the `init=/usr/lib/raspberrypi-sys-mods/firstboot` portion.
-- Alternatively, edit the `firstboot` script located in the `/usr/lib/raspberrypi-sys-mods/` directory within the ext4 root partition.
+On Raspberry Pi OS Bookworm you can modify the `cmdline.txt` file in the FAT32 boot partition by removing the `init=/usr/lib/raspberrypi-sys-mods/firstboot` portion.
 
-Once your OS setup has been finalized, you can restore the init script to re-enable automatic filesystem expansion on the first boot. 
-
-Alternatively, after copying the image on the final device, run:
+Once your OS setup has been finalized, you can restore the init script to re-enable automatic filesystem expansion on the next boot or, after copying the image on the final device, run:
 
 ```bash
 sudo raspi-config nonint do_expand_rootfs
