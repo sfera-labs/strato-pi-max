@@ -59,9 +59,8 @@ See [Compute Module 5 SD Card Compatibility](./cm5-sd-config.md)
 
 Refer to the user guide of your expansion board for details on how and when to use these additional resources.
 
-### CAN
-
-See [CAN controller configuration](./can)
+- [CAN controller guide](./can)
+- [LTE/GNSS module guide](./lte)
 
 ## X2-Series Expansion Boards Standard Specifications
 
