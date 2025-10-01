@@ -182,3 +182,66 @@ Bring up the connection:
 sudo ifup wwan0
 ```
 
+## AT interface
+
+By default, the Telit module exposes 5 usb-serial ports: `/dev/ttyUSB[0-4]`.
+
+As enumeration can change when other ttyUSB devices are connected, add static paths to each port using the `udev` device manager.
+
+For instance, create a file named `99-lte-usb.rules` in `/etc/udev/rules.d/` with the following content:
+
+```
+SUBSYSTEMS=="usb", KERNEL=="ttyUSB[0-9]*", \
+ENV{ID_MODEL_ID}=="1060", ENV{ID_VENDOR_ID}=="1bc7", \
+SYMLINK+="x2-lte-$attr{bInterfaceNumber}"
+```
+
+Reload the udev rules with:
+
+```
+sudo udevadm control --reload-rules && sudo udevadm trigger
+```
+
+The following device paths will become available:
+
+```
+/dev/x2-lte-00
+/dev/x2-lte-03
+/dev/x2-lte-04
+/dev/x2-lte-05
+/dev/x2-lte-06
+```
+
+The AT commands interface is available on `/dev/x2-lte-04`.
+
+Refer to the documentation of the Telit LN920 module for details on available AT commands.
+
+## GNSS
+
+To configure GNSS support send the following commands to the AT interface.
+
+Disable GNSS:
+
+```
+AT$GPSP=0
+```
+
+Select active mode for the Taoglas MA256.A.LBI.001 antenna:
+
+```
+AT$GPSANTPORT=3
+```
+
+Configure NMEA type, e.g.:
+
+```
+AT#LOCNMEATYPE=0,134020607
+```
+
+Enable GNSS:
+
+```
+AT$GPSP=1
+```
+
+The NMEA stream will be available on `/dev/x2-lte-03`.
