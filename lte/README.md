@@ -1,4 +1,4 @@
-# LTE module setup and usage
+# LTE/GNSS module guide
 
 When Strato Pi Max is equipped with a M.2 LTE Module expansion board with the Telit LN920 module, it will appear on the USB 2.0 bus of the Compute Module:
 
