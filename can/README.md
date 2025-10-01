@@ -1,4 +1,4 @@
-# CAN controller configuration
+# CAN controller guide
 
 To enable SocketCAN support for the MCP2515 CAN controller, you need to enable and configure the SPI0 bus and the mcp2515 driver, according to the slot each expansion board is installed on.
 
