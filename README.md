@@ -12,19 +12,23 @@ See [Strato Pi Max Setup Guide](./setup-guide.md)
 
 Raspberry Pi OS (Debian) driver kernel module for Strato Pi Max and its expansion boards.
 
-Go to: https://github.com/sfera-labs/strato-pi-max-kernel-module
+Go to: <https://github.com/sfera-labs/strato-pi-max-kernel-module>
 
 ## RTC Driver
 
 Raspberry Pi OS (Debian) driver for Strato Pi Max's NXP PCF2131 Real Time Clock (RTC).
 
-Go to: https://github.com/sfera-labs/rtc-pcf2131
+Go to: <https://github.com/sfera-labs/rtc-pcf2131>
 
 ## RP2040
 
-The latest verison of the Strato Pi Max firmware running on the RP2040 can be downloaded here:
+The latest version of the Strato Pi Max firmware running on the RP2040 can be downloaded [here](https://www.sferalabs.cc/files/stratopimax/fw/latest/strato_pi_max.uf2).
 
-https://www.sferalabs.cc/files/stratopimax/fw/latest/strato_pi_max.uf2
+To download it directly from the target system:
+
+```
+wget https://www.sferalabs.cc/files/stratopimax/fw/latest/strato_pi_max.uf2
+```
 
 Use the [`rpctrl.sh`](./rpctrl.sh) script to update your unit. 
 
